@@ -49,3 +49,8 @@ df.to_csv("data/clean_sales.csv", index=False)
 print("\nSaved clean_sales.csv")
 
 pd.read_csv("data/clean_sales.csv").info()
+
+#reflection questions:
+#1. I think I find the drop function a bit confusing, I understand dropna and drop_duplicates but I am confused on dropping a single row.
+#2. I think my comments are pretty clear and explain why I did what I did.
+#3. I would say maybe the most important thing i noticed about the data is the time column because it allows for trasactions to be dated abd tracked.
